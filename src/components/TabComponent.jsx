@@ -3,30 +3,30 @@ import React, { useState } from "react";
 const TabComponent = () => {
   const [tabActive, setTabActive] = useState("tab1");
   const tabs = [
-    { id: "tab1", label: "Technical Skill" },
-    { id: "tab2", label: "Education" },
-    { id: "tab3", label: "Personal Strength" },
+    { id: "tab1", label: "Technical Skills" },
+    { id: "tab2", label: "Education Details" },
+    { id: "tab3", label: "Personal Strengths" },
   ];
   const content = {
     tab1: (
       <div className="flex flex-col gap-4 px-9 text-wrap">
         <div className="flex gap-6">
           <span className="font-bold">Languages</span>{" "}
-          <span>C, C++, Java, JavaScript</span>
+          <span>C, C++, Java, Python, JavaScript</span>
         </div>
         <hr />
         <div className="flex gap-6">
           <span className="font-bold">Frontend Technologies</span>{" "}
-          <span>ReactJS, TailwindCSS, BootStrap, HTML, CSS</span>
+          <span>React.js, Tailwind CSS, Redux, HTML, CSS</span>
         </div>
         <hr />
         <div className="flex gap-6">
           <span className="font-bold">Backend Technologies</span>{" "}
-          <span>Node.js, Express.js</span>
+          <span>Node.js, Express.js, JSON Web Tokens</span>
         </div>
         <hr />
         <div className="flex gap-6">
-          <span className="font-bold">Databases</span> <span>MongoDB</span>
+          <span className="font-bold">Databases</span> <span>MongoDB, MySQL</span>
         </div>
         <hr />
         <div className="flex gap-6">
@@ -36,7 +36,7 @@ const TabComponent = () => {
         <hr />
         <div className="flex gap-6">
           <span className="font-bold">Theoritcal Knowledge</span>{" "}
-          <span>OOSE, DBMS, AWS, OS</span>
+          <span>DBMS, AWS, Operating System</span>
         </div>
       </div>
     ),
@@ -99,11 +99,10 @@ const TabComponent = () => {
         {tabs.map((tab) => (
           <button
             key={tab.id}
-            className={`px-4 py-2 font-semibold ${
-              tabActive === tab.id
-                ? "bg-orange-600 text-white rounded-full"
-                : "bg-neutral-100 rounded-full"
-            }`}
+            className={`px-4 py-2 font-semibold ${tabActive === tab.id
+              ? "bg-orange-600 text-white rounded-full"
+              : "bg-neutral-100 rounded-full"
+              }`}
             onClick={() => setTabActive(tab.id)}
           >
             {tab.label}
