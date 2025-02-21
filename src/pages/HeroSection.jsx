@@ -12,8 +12,8 @@ const HeroSection = () => {
         <p className="text-4xl text-gray-700 font-bold">MERN Stack Developer</p>
         <div className="flex gap-7">
           <button className="px-3 py-1 bg-amber-400 rounded-full text-neutral-800 font-semibold">
-            <a href="./MyCV.pdf" download>
-              Download CV
+            <a href="./Bharat_Resume.pdf" download>
+              Download Resume
             </a>
           </button>
           <button className="px-3 py-1 bg-orange-600 rounded-full text-white font-semibold">

@@ -66,8 +66,8 @@ const ContactSection = () => {
               </a>
             </div>
             <button className="px-3 py-1 bg-amber-400 rounded-full text-neutral-800 font-semibold">
-              <a href="./MyCV.pdf" download>
-                Download CV
+              <a href="./Bharat_Resume.pdf" download>
+                Download Resume
               </a>
             </button>
           </div>
