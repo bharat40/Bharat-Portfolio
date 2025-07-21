@@ -12,17 +12,17 @@ const TabComponent = () => {
       <div className="flex flex-col gap-4 px-9 text-wrap">
         <div className="flex gap-6">
           <span className="font-bold">Languages</span>{" "}
-          <span>C, C++, Java, Python, JavaScript</span>
+          <span>C, C++, Java</span>
         </div>
         <hr />
         <div className="flex gap-6">
           <span className="font-bold">Frontend Technologies</span>{" "}
-          <span>React.js, Tailwind CSS, Redux, HTML, CSS</span>
+          <span>React.js, Tailwind CSS, Redux, HTML, CSS, JavaScript</span>
         </div>
         <hr />
         <div className="flex gap-6">
           <span className="font-bold">Backend Technologies</span>{" "}
-          <span>Node.js, Express.js, JSON Web Tokens</span>
+          <span>Node.js, Express.js, JSON Web Token</span>
         </div>
         <hr />
         <div className="flex gap-6">
@@ -30,13 +30,13 @@ const TabComponent = () => {
         </div>
         <hr />
         <div className="flex gap-6">
-          <span className="font-bold">Developer Tools</span>{" "}
-          <span>Git, GitHub, Postman, VSCode</span>
+          <span className="font-bold">Developer Tools & Other Skills</span>{" "}
+          <span>Git, GitHub, Postman, ThunderClient, MongoDB Compass, VSCode, Object-Oriented Programming, SQL</span>
         </div>
         <hr />
         <div className="flex gap-6">
           <span className="font-bold">Theoritcal Knowledge</span>{" "}
-          <span>DBMS, AWS, Operating System</span>
+          <span>DBMS, AWS(EC2, S3), Operating System</span>
         </div>
       </div>
     ),
@@ -44,7 +44,7 @@ const TabComponent = () => {
       <div className="flex flex-col gap-4 px-9 text-wrap">
         <div className="flex gap-6">
           <span className="font-bold">Chitkara University</span>{" "}
-          <span>Bachelor of Technology in Computer Science & Engineering</span>
+          <span>Bachelor of Engineering in Computer Science </span>
           <span className="font-semibold">Punjab, India</span>
         </div>
         <hr />
@@ -69,9 +69,9 @@ const TabComponent = () => {
         </div>
         <hr />
         <div className="flex gap-6">
-          <span className="font-bold">Calm & Empathetic Listener</span>{" "}
+          <span className="font-bold">Proactive & Supportive Leader</span>{" "}
           <span>
-            I understand others' perspectives and respond with patience and care
+            I take initiative, guide teams with clarity, and create an environment where everyone feels empowered to contribute.
           </span>
         </div>
         <hr />

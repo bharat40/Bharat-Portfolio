@@ -14,19 +14,25 @@ const ProjectSection = () => {
             name="Udaariyaan"
             image="./udaariyaan.png"
             github="https://github.com/birinderr/udaariyaan"
-            live={null}
+            live="https://udaariyan.vercel.app/"
           />
           <ProjectCard
             name="NoteSpot"
             image="./notespot.png"
             github="https://github.com/bharat40/NoteSpot_MERN"
-            live={null}
+            live="https://notespot-frontend.onrender.com/"
           />
           <ProjectCard
             name="FoodNook"
             image="./foodnook.png"
             github="https://github.com/bharat40/FoodNook_ReactJS"
             live="https://darling-blini-28977e.netlify.app/"
+          />
+          <ProjectCard
+            name="LookBazaar"
+            image="./lookbazaar.png"
+            live="https://lookbazaar.netlify.app/"
+            github="https://github.com/bharat40/E-Commerce-Website-Frontend"
           />
           <ProjectCard
             name="Password Generator"
@@ -47,6 +53,12 @@ const ProjectSection = () => {
             live="https://66a9137122fde34a2ef5236e--leafy-dieffenbachia-f3ec52.netlify.app/"
           />
           <ProjectCard
+            image="./pagination.png"
+            name="Pagination"
+            live="https://jovial-monstera-5ec978.netlify.app/"
+            github="https://github.com/bharat40/Pagination-ReactJS"
+          />
+          <ProjectCard
             name="BharatPe"
             image="./bharatpe.png"
             github="https://github.com/bharat40/BharatPe-Clone"
@@ -57,6 +69,23 @@ const ProjectSection = () => {
             image="./pwskills.png"
             github="https://github.com/bharat40/PW-Skills-Clone"
             live="https://fantastic-piroshki-2f04d4.netlify.app/"
+          />
+          <ProjectCard
+            name="Car Sale Website"
+            image="./carsale.png"
+            github="https://github.com/bharat40/CAR-SALE-WEBSITE"
+          />
+          <ProjectCard
+            name="Edunation"
+            image="./edunation.png"
+            github="https://github.com/bharat40/Edunation_ReactJS"
+            live="https://edunationreactjs.netlify.app/"
+          />
+          <ProjectCard
+            name="TinyTask"
+            image="./tinytask.png"
+            live="https://tinytasks.netlify.app/"
+            github="https://github.com/bharat40/TodoList_App"
           />
         </div>
       </div>
