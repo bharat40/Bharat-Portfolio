@@ -87,6 +87,12 @@ const ProjectSection = () => {
             live="https://tinytasks.netlify.app/"
             github="https://github.com/bharat40/TodoList_App"
           />
+          <ProjectCard
+            name="WeatherApp-React"
+            image="./weather.png"
+            github="https://github.com/bharat40/WeatherApp-React"
+            live="weatherappreacttailwindcss.netlify.app/"
+          />
         </div>
       </div>
     </section>
