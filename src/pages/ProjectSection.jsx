@@ -35,16 +35,21 @@ const ProjectSection = () => {
             github="https://github.com/bharat40/E-Commerce-Website-Frontend"
           />
           <ProjectCard
-            name="Password Generator"
-            image="./passwordgenerator.png"
-            github="https://github.com/bharat40/Password-Generator"
-            live="https://prismatic-swan-37ecd5.netlify.app/"
-          />
-          <ProjectCard
             name="Social Links"
             image="./bharatsocial.png"
             github="https://github.com/bharat40/Social-Links"
             live="https://bharat-social-links.netlify.app/"
+          />
+          <ProjectCard
+            name="Book Store"
+            github="https://github.com/bharat40/Book-Store"
+            image="./bookstore.png"
+          />
+          <ProjectCard
+            name="Password Generator"
+            image="./passwordgenerator.png"
+            github="https://github.com/bharat40/Password-Generator"
+            live="https://prismatic-swan-37ecd5.netlify.app/"
           />
           <ProjectCard
             name="Currency Convertor"
@@ -92,6 +97,18 @@ const ProjectSection = () => {
             image="./weather.png"
             github="https://github.com/bharat40/WeatherApp-React"
             live="weatherappreacttailwindcss.netlify.app/"
+          />
+          <ProjectCard
+            name="Password Validator"
+            github="https://github.com/bharat40/Password-Validator"
+            live="https://validate-password-reactjs.netlify.app/"
+            image="./passwordvalidator.png"
+          />
+          <ProjectCard
+            name="BMI-Calculator"
+            live="https://bmi-calculator-react-tailwindcss.netlify.app/"
+            github="https://github.com/bharat40/BMI-CALCULATOR"
+            image="./bmicalculator.png"
           />
         </div>
       </div>
