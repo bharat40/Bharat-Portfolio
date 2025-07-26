@@ -8,7 +8,7 @@ const HeroSection = () => {
       </div>
       <div className="flex flex-col items-center text-center gap-4">
         <p className="font-bold text-gray-700 text-xl">Hello I'm</p>
-        <p className="text-5xl font-bold text-neutral-800">Bharat</p>
+        <p className="text-5xl font-bold text-neutral-800">Bharat Dhiman</p>
         <p className="text-4xl text-gray-700 font-bold">Web Developer</p>
         <div className="flex gap-7">
           <button className="px-3 py-1 bg-amber-400 rounded-full text-neutral-800 font-semibold">

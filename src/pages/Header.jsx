@@ -10,7 +10,7 @@ const Header = () => {
       id="header-section"
     >
       <div>
-        <span className="font-bold text-4xl">Bharat</span>
+        <span className="font-bold text-4xl">Bharat Dhiman</span>
       </div>
 
       <ul className="md:flex gap-8 font-semibold text-lg hidden">
