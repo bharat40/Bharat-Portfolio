@@ -110,6 +110,11 @@ const ProjectSection = () => {
             github="https://github.com/bharat40/BMI-CALCULATOR"
             image="./bmicalculator.png"
           />
+          <ProjectCard 
+            name="MERN-AUTH"
+            github="https://github.com/bharat40/MERN-Auth"
+            image="./mernauth.png"
+          />
         </div>
       </div>
     </section>
